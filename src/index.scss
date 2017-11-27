@@ -67,6 +67,8 @@
   top: -999em;
   visibility: hidden;
   z-index: 999;
+  overflow-y: auto;
+  max-height: 20em;
   &:before,
   &:after {
     content: "";
